@@ -1,0 +1,5 @@
+Ideas principales del videojuego:
+- Tipo: Arcade espacial (shoot 'em up).
+- Tema: Batalla intergaláctica entre humanos y alienígenas.
+- Objetivo: Destruir oleadas de enemigos y sobrevivir el mayor tiempo posible.
+- Plataforma: Web (HTML, CSS, JS).
