@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Starfight v2</title>
+  <link rel="stylesheet" href="styles.css?v=2" />
+</head>
+<body>
+  <div class="hud">
+    <div>💯 Puntos: <span id="score">0</span></div>
+    <div>❤️ Vidas: <span id="lives">3</span></div>
+    <div>⭐ Nivel: <span id="level">1</span></div>
+  </div>
+
+  <canvas id="game" width="480" height="720"></canvas>
+
+  <div id="overlay" class="overlay">
+    <div class="card">
+      <h1>Starfight v2</h1>
+      <p>⬅️ ➡️ moverse · <kbd>Espacio</kbd> disparar · <kbd>P</kbd> pausa</p>
+      <button id="startBtn" class="btn">Jugar</button>
+    </div>
+  </div>
+
+  <script src="game.js?v=2" defer></script>
+</body>
+</html>

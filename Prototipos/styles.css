@@ -1,0 +1,7 @@
+html,body{margin:0;height:100%;background:#0a0f1f;color:#e6f1ff;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;overflow:hidden}
+canvas{display:block;margin:80px auto 60px;max-width:95vw;height:auto;background:#070b16;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.hud{position:fixed;top:12px;left:50%;transform:translateX(-50%);display:flex;gap:14px;padding:8px 12px;background:#0f1732cc;border:1px solid #21315a;border-radius:999px;backdrop-filter:blur(6px);z-index:10}
+.overlay{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#0a0f1fe6;z-index:20}
+.overlay.hidden{display:none!important}
+.card{padding:24px 28px;background:#0f1732;border:1px solid #21315a;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.35);text-align:center}
+.btn{margin-top:12px;padding:10px 16px;border-radius:10px;border:1px solid #2a4b72;background:#14365a;color:#e6f1ff;font-weight:700;cursor:pointer}
