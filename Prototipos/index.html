@@ -3,33 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Starfight - Space Shooter</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Starfight v2</title>
+  <link rel="stylesheet" href="styles.css?v=2" />
 </head>
 <body>
   <div class="hud">
-    <div class="hud-item">💯 Puntos: <span id="score">0</span></div>
-    <div class="hud-item">❤️ Vidas: <span id="lives">3</span></div>
-    <div class="hud-item">⭐ Nivel: <span id="level">1</span></div>
+    <div>💯 Puntos: <span id="score">0</span></div>
+    <div>❤️ Vidas: <span id="lives">3</span></div>
+    <div>⭐ Nivel: <span id="level">1</span></div>
   </div>
 
-  <canvas id="game" width="480" height="720" aria-label="Juego de naves"></canvas>
+  <canvas id="game" width="480" height="720"></canvas>
 
   <div id="overlay" class="overlay">
     <div class="card">
-      <h1>Starfight</h1>
-      <p class="subtitle">Naves, disparos y estrellas ✨</p>
-      <p><b>Controles:</b> ⬅️ ➡️ para moverte, <kbd>Espacio</kbd> para disparar, <kbd>P</kbd> pausa.</p>
+      <h1>Starfight v2</h1>
+      <p>⬅️ ➡️ moverse · <kbd>Espacio</kbd> disparar · <kbd>P</kbd> pausa</p>
       <button id="startBtn" class="btn">Jugar</button>
     </div>
   </div>
 
-  <div class="mobile-controls" id="mobileControls" aria-hidden="true">
-    <button class="btn small" id="btnLeft">⬅️</button>
-    <button class="btn small" id="btnFire">🔥</button>
-    <button class="btn small" id="btnRight">➡️</button>
-  </div>
-
-  <script src="game.js"></script>
+  <script src="game.js?v=2" defer></script>
 </body>
 </html>
